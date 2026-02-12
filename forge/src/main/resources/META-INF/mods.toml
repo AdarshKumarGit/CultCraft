@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "cultcraft"
+version = "${version}"
+displayName = "CultCraft"
+authors = "Small_chubby"
+description = '''
+Cult Craft is a dark magic and ritual-based Minecraft mod built around blood sacrifice, devils, and irreversible choices.  This is not a power-fantasy magic mod. This is a commitment-driven system where every ritual, pact, and sacrifice permanently shapes you and your world.
+'''
+#logoFile = ""
+
+[[dependencies.cultcraft]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cultcraft]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cultcraft]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
